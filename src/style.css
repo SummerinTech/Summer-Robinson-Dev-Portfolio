@@ -51,7 +51,6 @@ nav li {
 	display: inline;
 	list-style: none;
 	line-height: 42px;
-	padding: 15px;
 	color: var(--primary-mauve-color);
 }
 
@@ -143,6 +142,7 @@ nav ul {
 .nav-links {
 	text-decoration: none;
 	color: var(--primary-mauve-color);
+	padding: 15px;
 }
 
 .nav-links:hover {
