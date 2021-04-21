@@ -26,7 +26,7 @@ h2 {
 	color: ghostwhite;
 	margin-bottom: 20px;
 	font-weight: 500;
-	font-size: 32px;
+	font-size: 28px;
 }
 
 p {
@@ -63,9 +63,18 @@ img {
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 100vh;
+	height: 95vh;
 	width: 100vw;
-	padding-left: 20px;
+	padding-left: 30px;
+}
+
+.hero h1 {
+	margin-left: -1px;
+}
+
+.hero h2 {
+	font-size: 28px;
+	font-weight: 300;
 }
 
 .container {
