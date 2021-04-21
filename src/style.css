@@ -26,9 +26,15 @@ h2 {
 	color: ghostwhite;
 	margin-bottom: 20px;
 	font-weight: 500;
+	font-size: 32px;
 }
 
-a {
+p {
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.btn-styling {
 	max-width: 100px;
 	text-decoration: none;
 	color: white;
@@ -40,7 +46,7 @@ a {
 	text-align: center;
 }
 
-a:hover {
+.btn-styling:hover {
 	color: white;
 	background: #c2919d;
 }
@@ -59,6 +65,20 @@ a:hover {
 .container {
 	margin: 0;
 	padding: 0;
+}
+
+.project-container {
+	display: block;
+	margin: 0 auto;
+}
+
+.project-container h2 {
+	font-family: var(--main-font-family);
+	font-size: 48px;
+}
+
+.project-container p {
+	opacity: 0.7;
 }
 
 @media (max-width: 900px) {
