@@ -260,6 +260,14 @@ footer li {
 		max-width: 50px;
 	}
 
+	footer {
+		padding: 10px;
+	}
+
+	.summer-robinson-headshot {
+		max-width: 250px;
+	}
+
 	.index-content h2 {
 		text-align: center;
 	}
