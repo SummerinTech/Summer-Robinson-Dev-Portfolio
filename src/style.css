@@ -94,6 +94,10 @@ footer li {
 	font-size: 24px;
 }
 
+.email-link:hover {
+	color: var(--cream-color);
+}
+
 .btn-styling {
 	max-width: 100px;
 	text-decoration: none;
@@ -147,6 +151,7 @@ footer li {
 }
 
 .about-hero {
+	height: 100vh;
 	padding: 0;
 }
 
@@ -158,7 +163,7 @@ footer li {
 }
 
 .summer-robinson-headshot {
-	width: 300px;
+	width: 275px;
 }
 
 .logo {
