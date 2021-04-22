@@ -152,10 +152,10 @@ nav ul {
 
 .contact-heading {
 	padding: 40px;
-	margin: 30px;
+	margin-left: 60px;
 }
 .contact-heading h2 {
-	margin: 20px;
+	margin-left: 40px;
 	padding: 20px;
 	font-size: 64px;
 	font-weight: 600;
@@ -163,13 +163,14 @@ nav ul {
 }
 
 .contact-container {
+	max-width: 75%;
 	opacity: 0.9;
 	margin-left: 250px;
 	padding-top: 20px;
 	background: var(--silver-color);
 }
 
-contact-container h2 {
+.contact-container h2 {
 	font-size: 48px;
 	margin: 20px;
 	font-family: var(--main-font-family);
@@ -185,6 +186,8 @@ contact-container h2 {
 }
 
 .contact-container a {
+	margin-left: 800px;
+
 	padding: 18px 9px;
 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
 }
@@ -234,7 +237,12 @@ contact-container h2 {
 		margin: 0 auto;
 	}
 
-	.contact-header h2 {
+	.contact-heading {
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	.contact-heading h2 {
 		text-align: center;
 	}
 
@@ -243,7 +251,7 @@ contact-container h2 {
 		margin: 0 auto;
 		padding: 20px;
 		text-align: center;
-		height: 240px;
+		height: 320px;
 	}
 
 	.contact-container h2 {
@@ -256,5 +264,4 @@ contact-container h2 {
 
 	.contact-container a {
 		margin: 0 auto;
-	}
 }
