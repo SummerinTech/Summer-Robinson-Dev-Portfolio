@@ -59,6 +59,41 @@ nav ul {
 	padding: 0;
 }
 
+footer {
+	background-color: var(--silver-color);
+	padding: 20px;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+footer li {
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+}
+
+.fab {
+	background: var(--silver-color);
+	border-radius: 100px;
+	padding: 10px;
+	font-size: 24px;
+	color: var(--primary-mauve-color);
+}
+
+.fab:hover {
+	color: var(--silver-color);
+	background: var(--primary-mauve-color);
+}
+
+.email-link {
+	color: var(--primary-blue-color);
+	font-family: var(--text-font-family);
+	text-decoration: none;
+	font-size: 24px;
+}
+
 .btn-styling {
 	max-width: 100px;
 	text-decoration: none;
@@ -148,6 +183,10 @@ nav ul {
 .nav-links:hover {
 	text-decoration: none;
 	color: var(--silver-color);
+}
+
+.contact-page {
+	height: 100vh;
 }
 
 .contact-heading {
