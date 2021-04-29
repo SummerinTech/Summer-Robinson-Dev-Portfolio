@@ -19,6 +19,10 @@
 			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
 			crossorigin="anonymous"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
@@ -31,30 +35,40 @@
 		<link rel="stylesheet" href="/src/style.css" />
 	</head>
 	<body>
-    <div class="container">
-    <nav class="navbar d-flex justify-content-between">
-        <img src="/src/images/extra-logo.png" class="logo d-none d-md-block" />
-      <ul>
-        <li><a href="/" class="nav-links" title="Homepage">Home</a></li>
-        <li><a href="/src/about.html" title="About Summer" class="nav-links">About Me</a></li>
-        <a><a href="/src/projects.html" title="Summer's Projects" class="nav-links">Projects</a></li>
-        <li><a href="/src/contact.html" title="Contact Summer" class="nav-links">Contact</a></li>
-      </ul>
-    </nav>
-    </div>
+		<nav class="navbar d-flex justify-content-between">
+			<img src="/src/images/extra-logo.png" class="logo d-none d-md-block" />
+			<ul class="nav-bar d-flex justify-content-end">
+				<li><a href="/" class="nav-links">Home</a></li>
+				<li>
+					<a href="/src/about.html" title="About Summer" class="nav-links"
+						>About Me</a
+					>
+				</li>
+				<li>
+					<a href="/src/projects.html" title="About Summer" class="nav-links"
+						>Projects</a
+					>
+				</li>
+				<li>
+					<a href="/src/contact.html" title="About Summer" class="nav-links"
+						>Contact</a
+					>
+				</li>
+			</ul>
+		</nav>
 		<div class="about-hero">
-			<div class="row m-4">
-				<div class="col-lg-6 pb-lg-4 pb-5 about-hero-content">
-					<h1 class="mb-lg-4 mb-3">About Summer</h1>
-					<h2 class="mb-lg-4 mb-3">
-						Front-end developer based in Los Angeles, CA
-					</h2>
-					<p class="mb-lg-5 mb-4">
+			<div class="row">
+				<div class="col-lg-6 about-hero-content">
+					<h1 class="mb-4">About Summer</h1>
+					<h2 class="mb-4">Front-end developer based in Los Angeles, CA</h2>
+					<p class="">
 						I’m currently seeking new opportunities in front-end development.
 						I’m open to work remotely and have flexible hours. I’m highly
 						skilled in JavaScript and React.
 					</p>
-					<a href="/src/projects.html" class="btn-styling">My Projects</a>
+					<a href="/src/projects.html" class="btn-styling mt-3 mb-3"
+						>My Projects</a
+					>
 				</div>
 				<div class="col-lg-6">
 					<img
@@ -65,27 +79,34 @@
 				</div>
 			</div>
 		</div>
-    <footer class="footer-about mt-5">
-          <div class="footer-email text-center m-5 p-5">
-      <a href="mailto:summernr90@gmail.com" title="Summer Robinson email" class="email-link">summernr90@gmail.com</a></div>
-    </div> 
-    <div class="social-icons d-flex justify-content-center">
-      <ul>
-        <li class="social-icon">
-          <a href="https://www.github.com/summerintech"><i class="fab fa-github"></i></a>
-
-        </li>
-        <li class="social-icon">
-
-          <a href="https://www.github.com/summerintech" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li class="social-icon">
-          <a href="https://www.github.com/summerintech"><i class="fab fa-twitter"></i></a>
-
-        </li>
-      </ul>
-    </div>
-
-    </footer>
+		<footer class="p-5">
+			<div class="footer-email text-center p-5">
+				<a
+					href="mailto:summernr90@gmail.com"
+					title="Summer Robinson email"
+					class="email-link"
+					>summernr90@gmail.com</a
+				>
+			</div>
+			<div class="social-icons d-flex justify-content-center">
+				<ul>
+					<li class="social-icon">
+						<a href="https://www.github.com/summerintech"
+							><i class="fab fa-github"></i
+						></a>
+					</li>
+					<li class="social-icon">
+						<a href="https://www.github.com/summerintech" target="_blank"
+							><i class="fab fa-linkedin"></i
+						></a>
+					</li>
+					<li class="social-icon">
+						<a href="https://www.github.com/summerintech"
+							><i class="fab fa-twitter"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
