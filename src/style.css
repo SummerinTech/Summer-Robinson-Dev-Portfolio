@@ -286,6 +286,10 @@ footer li {
 		text-align: center;
 	}
 
+	.about-hero h1 {
+		font-size: 44px;
+	}
+
 	.btn-styling {
 		margin: 0 auto;
 	}
