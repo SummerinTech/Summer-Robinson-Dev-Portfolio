@@ -1,11 +1,11 @@
 :root {
 	--primary-blue-color: #235b6c;
 	--primary-mauve-color: #ef866c;
-  --first-mauve-color: #955f6c;
-	--secondary-steel-color: #6AA5B4;
+	--first-mauve-color: #955f6c;
+	--secondary-steel-color: #6aa5b4;
 	--silver-color: #e0e0e0;
 	--cream-color: whiteghost;
-	--main-font-family: font-family: 'Roboto', sans-serif;
+	--main-font-family: "Roboto", sans-serif;
 	--text-font-family: "Poppins", sans-serif;
 }
 
@@ -21,11 +21,11 @@ h1 {
 	font-family: var(--main-font-family);
 	font-weight: 400;
 	font-size: 80px;
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 h2 {
-  font-family: var(--text-font-family);
+	font-family: var(--text-font-family);
 	color: #0c0c0c;
 	margin-bottom: 20px;
 	font-weight: 700;
@@ -45,19 +45,19 @@ img {
 }
 
 nav {
-  background-color: var(--silver-color);
+	background-color: var(--silver-color);
 }
 nav ul {
-  list-style: none;
+	list-style: none;
 }
 nav li {
-  font-size: 16px;
-  text-transform: uppercase;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 footer {
 	background-color: var(--silver-color);
-  width: 100%;
+	width: 100%;
 }
 
 footer ul {
@@ -109,8 +109,7 @@ footer li {
 .btn-styling:hover {
 	color: white;
 	background: #ed9f8c;
-  /* #c2919d */
-  
+	/* #c2919d */
 }
 
 .hero {
@@ -150,7 +149,7 @@ footer li {
 }
 
 .about-hero {
-  width: 100%;
+	width: 100%;
 	height: 100vh;
 	padding: 0;
 }
@@ -232,7 +231,6 @@ footer li {
 }
 
 @media (max-width: 800px) {
-
 	h2 {
 		font-size: 44px;
 	}
@@ -270,7 +268,7 @@ footer li {
 		text-align: center;
 		width: 100%;
 		padding: 0;
-    height: 400px;
+		height: 400px;
 	}
 
 	.hero h1 {
