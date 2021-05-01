@@ -132,7 +132,6 @@ footer li {
 .index-content {
 	display: block;
 	margin: 0 auto;
-	padding-left: 20px;
 }
 
 .index-content h2 {
@@ -236,6 +235,13 @@ footer li {
 	padding-bottom: 20px;
 	font: "Poppins";
 	font-size: 60px;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 @media (max-width: 800px) {
