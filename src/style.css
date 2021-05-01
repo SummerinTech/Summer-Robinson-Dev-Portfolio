@@ -70,6 +70,16 @@ footer li {
 	margin: 10px;
 }
 
+footer p a {
+	color: var(--primary-coral-color);
+	text-decoration: none;
+}
+
+footer p a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
 .fab {
 	background: var(--gray-color);
 	border-radius: 100px;
