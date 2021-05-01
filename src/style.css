@@ -18,10 +18,9 @@ body {
 
 h1 {
 	color: #000;
-	font-family: var(--main-font-family);
-	font-weight: 400;
+	font-family: var(--text-font-family);
+	font-weight: 600;
 	font-size: 80px;
-	opacity: 0.8;
 }
 
 h2 {
@@ -135,6 +134,8 @@ footer p a:hover {
 }
 
 .hero h2 {
+	font-family: var(--main-font-family);
+	font-weight: 700;
 	font-size: 28px;
 	font-weight: 100;
 }
@@ -167,7 +168,7 @@ footer p a:hover {
 .about-hero h1 {
 	font-family: "Poppins";
 	font-size: 66px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .about-hero h2 {
@@ -247,9 +248,8 @@ footer p a:hover {
 	line-height: 27px;
 }
 
-.project-hero h2 {
-	margin: 40px 30px;
-	padding-bottom: 20px;
+.project-hero h1 {
+	margin-left: 20px;
 	font-family: "Poppins";
 	font-size: 60px;
 	font-weight: 600;
@@ -362,7 +362,7 @@ footer p a:hover {
 		box-shadow: none;
 	}
 
-	.project-hero h2 {
+	.project-hero h1 {
 		text-align: center;
 		font-size: 32px;
 		margin-bottom: 10px;
@@ -379,6 +379,10 @@ footer p a:hover {
 
 	.email-link {
 		text-align: center;
+	}
+
+	footer p {
+		font-size: 12px;
 	}
 }
 
