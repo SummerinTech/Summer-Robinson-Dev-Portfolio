@@ -1,9 +1,9 @@
 :root {
 	--primary-blue-color: #235b6c;
-	--primary-mauve-color: #ef866c;
-	--first-mauve-color: #955f6c;
+	--primary-coral-color: #ef866c;
+	/* --first-mauve-color: #955f6c; */
 	--secondary-steel-color: #6aa5b4;
-	--silver-color: #e0e0e0;
+	--gray-color: #e0e0e0;
 	--cream-color: whiteghost;
 	--main-font-family: "Roboto", sans-serif;
 	--text-font-family: "Poppins", sans-serif;
@@ -13,7 +13,7 @@ body {
 	font-family: var(--text-font-family);
 	margin: 0;
 	padding: 0;
-	background: var(--silver-color);
+	background: var(--gray-color);
 }
 
 h1 {
@@ -45,7 +45,7 @@ img {
 }
 
 nav {
-	background-color: var(--silver-color);
+	background-color: var(--gray-color);
 }
 nav ul {
 	list-style: none;
@@ -56,7 +56,7 @@ nav li {
 }
 
 footer {
-	background-color: var(--silver-color);
+	background-color: var(--gray-color);
 	width: 100%;
 }
 
@@ -71,27 +71,28 @@ footer li {
 }
 
 .fab {
-	background: var(--silver-color);
+	background: var(--gray-color);
 	border-radius: 100px;
 	padding: 10px;
 	font-size: 24px;
-	color: var(--primary-mauve-color);
+	color: var(--primary-coral-color);
 }
 
 .fab:hover {
-	color: var(--silver-color);
-	background: var(--primary-mauve-color);
+	color: var(--gray-color);
+	background: var(--primary-coral-color);
 }
 
 .email-link {
-	color: var(--secondary-steel-color);
+	color: rgb(46, 44, 44);
 	font-family: var(--text-font-family);
 	text-decoration: none;
 	font-size: 24px;
 }
 
 .email-link:hover {
-	color: var(--cream-color);
+	cursor: pointer;
+	color: #fff;
 }
 
 .btn-styling {
@@ -99,7 +100,7 @@ footer li {
 	text-decoration: none;
 	color: white;
 	padding: 10px 8px;
-	background: var(--primary-mauve-color);
+	background: var(--primary-coral-color);
 	border-radius: 20px;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 	font-weight: 300;
@@ -113,7 +114,7 @@ footer li {
 }
 
 .hero {
-	background: var(--silver-color);
+	background: var(--gray-color);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -180,7 +181,7 @@ footer li {
 
 .nav-links {
 	text-decoration: none;
-	color: var(--primary-mauve-color);
+	color: var(--primary-coral-color);
 	padding: 15px;
 }
 
@@ -228,6 +229,13 @@ footer li {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px;
+}
+
+.project-hero h2 {
+	margin: 40px 30px;
+	padding-bottom: 20px;
+	font: "Poppins";
+	font-size: 60px;
 }
 
 @media (max-width: 800px) {
