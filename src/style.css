@@ -154,11 +154,18 @@ footer li {
 	padding: 0;
 }
 
+.about-hero h1 {
+	font-family: "Poppins";
+	font-size: 66px;
+	font-weight: 700;
+}
+
 .about-hero h2 {
-	font-family: Poppins;
+	font-family: var(--main-font-family);
 	font-size: 24px;
 	font-weight: 300;
-	color: var(--primary-blue-color);
+	color: #000;
+	opacity: 0.8;
 }
 
 .summer-robinson-headshot {
@@ -201,9 +208,9 @@ footer li {
 .contact-heading h2 {
 	margin-left: 40px;
 	padding: 20px;
-	font-size: 64px;
+	font-size: 66px;
 	font-weight: 600;
-	font-family: var(--main-font-family);
+	font-family: "Poppins";
 }
 
 .contact-container {
@@ -214,7 +221,7 @@ footer li {
 }
 
 .contact-container h2 {
-	font-size: 48px;
+	font-size: 58px;
 	margin: 20px;
 	font-family: var(--main-font-family);
 	line-height: 64px;
@@ -226,15 +233,16 @@ footer li {
 	opacity: 0.6;
 	margin: 20px;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 27px;
 }
 
 .project-hero h2 {
 	margin: 40px 30px;
 	padding-bottom: 20px;
-	font: "Poppins";
+	font-family: "Poppins";
 	font-size: 60px;
+	font-weight: 600;
 }
 
 .row {
