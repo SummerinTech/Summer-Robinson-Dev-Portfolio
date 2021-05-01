@@ -338,6 +338,21 @@ footer li {
 		box-shadow: none;
 	}
 
+	.project-hero h2 {
+		text-align: center;
+		font-size: 32px;
+		margin-bottom: 10px;
+		padding: 0;
+	}
+
+	.project-one,
+	.project-two,
+	.project-three img {
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+
 	.email-link {
 		text-align: center;
 	}
