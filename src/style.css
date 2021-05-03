@@ -47,6 +47,8 @@ nav {
 	background-color: var(--gray-color);
 }
 nav ul {
+	display: flex;
+	justify-content: end;
 	list-style: none;
 }
 nav li {
@@ -281,6 +283,10 @@ footer p a:hover {
 
 	footer {
 		padding: 0;
+	}
+
+	nav ul {
+		justify-content: center;
 	}
 
 	.footer-email {
