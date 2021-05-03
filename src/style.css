@@ -340,7 +340,7 @@ footer p a:hover {
 	.contact-heading h1 {
 		margin: 0;
 		text-align: center;
-		font-size: 54px;
+		font-size: 32px;
 	}
 
 	.contact-container {
@@ -351,9 +351,9 @@ footer p a:hover {
 		width: 90%vw;
 	}
 
-	.contact-container h1 {
+	.contact-container h2 {
 		font-family: var(--main-font-family);
-		font-size: 38px;
+		font-size: 26px;
 		margin: 0;
 		padding: 0;
 	}
