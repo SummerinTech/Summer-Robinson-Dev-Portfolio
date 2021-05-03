@@ -324,7 +324,11 @@ footer p a:hover {
 	}
 
 	.about-hero h1 {
-		font-size: 44px;
+		font-size: 32px;
+	}
+
+	.about-hero h2 {
+		font-size: 22px;
 	}
 
 	.btn-styling {
