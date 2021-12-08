@@ -38,8 +38,10 @@ p {
 img {
 	display: block;
 	margin: 0 auto;
-	width: 500px;
+	width: 400px;
 }
+
+/* navbar styiling */
 
 nav {
 	background-color: var(--primary-cream-color);
@@ -54,6 +56,7 @@ nav li {
 	text-transform: uppercase;
 }
 
+/* footer styling */
 footer {
 	background-color: var(--primary-cream-color);
 	width: 100%;
@@ -78,6 +81,8 @@ footer p a:hover {
 	color: #fff;
 	cursor: pointer;
 }
+
+/* icon styling */
 
 .fab {
 	background: var(--primary-cream-color);
@@ -122,6 +127,8 @@ footer p a:hover {
 	/* #c2919d */
 }
 
+/* homepage styling */
+
 .hero {
 	background: var(--primary-cream-color);
 	display: flex;
@@ -131,6 +138,7 @@ footer p a:hover {
 	height: 100vh;
 	width: 100%;
 	padding-left: 30px;
+	overflow: hidden;
 }
 
 .hero h2 {
@@ -158,6 +166,13 @@ footer p a:hover {
 	height: auto;
 	width: 500px;
 }
+
+.drawing {
+	max-width: 100%;
+	width: 500px;
+}
+
+/* about page stying */
 
 .about-hero {
 	width: 100%;
@@ -208,6 +223,8 @@ footer p a:hover {
 	color: #fff;
 }
 
+/* contact page styling */
+
 .contact-page {
 	margin: 0;
 	height: 100vh;
@@ -247,6 +264,8 @@ footer p a:hover {
 	color: #000;
 	opacity: 0.8;
 }
+
+/* project page styling */
 .project-page {
 	background-color: var(--primary-cream-color);
 }
@@ -312,9 +331,12 @@ footer p a:hover {
 		height: 400px;
 	}
 
+	.hero img {
+		display: none;
+	}
+
 	.hero h1 {
-		font-size: 54px;
-		margin: 20px;
+		font-size: 50px;
 	}
 
 	.hero h2 {
@@ -397,6 +419,11 @@ footer p a:hover {
 	footer p {
 		font-size: 12px;
 	}
+}
+
+@media (max-width: 991) {
+	.hero-info h1 {
+	margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
