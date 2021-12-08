@@ -1,10 +1,8 @@
 :root {
 	--primary-blue-color: #235b6c;
-	--primary-coral-color: #ef866c;
 	/* --first-mauve-color: #955f6c; */
 	--secondary-steel-color: #6aa5b4;
-	--gray-color: #e0e0e0;
-	--cream-color: whiteghost;
+	--primary-cream-color: #f6f3e7;
 	--main-font-family: "Roboto", sans-serif;
 	--text-font-family: "Poppins", sans-serif;
 }
@@ -44,7 +42,7 @@ img {
 }
 
 nav {
-	background-color: var(--gray-color);
+	background-color: var(--primary-cream-color);
 }
 nav ul {
 	display: flex;
@@ -57,7 +55,7 @@ nav li {
 }
 
 footer {
-	background-color: var(--gray-color);
+	background-color: var(--primary-cream-color);
 	width: 100%;
 }
 
@@ -72,7 +70,7 @@ footer li {
 }
 
 footer p a {
-	color: var(--primary-coral-color);
+	color: var(--primary-blue-color);
 	text-decoration: none;
 }
 
@@ -82,16 +80,16 @@ footer p a:hover {
 }
 
 .fab {
-	background: var(--gray-color);
+	background: var(--primary-cream-color);
 	border-radius: 100px;
 	padding: 10px;
 	font-size: 24px;
-	color: var(--primary-coral-color);
+	color: var(--primary-blue-color);
 }
 
 .fab:hover {
-	color: var(--gray-color);
-	background: var(--primary-coral-color);
+	color: var(--primary-cream-color);
+	background: var(--primary-blue-color);
 }
 
 .email-link {
@@ -111,7 +109,7 @@ footer p a:hover {
 	text-decoration: none;
 	color: white;
 	padding: 10px 8px;
-	background: var(--primary-coral-color);
+	background: var(--primary-blue-color);
 	border-radius: 20px;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 	font-weight: 300;
@@ -120,12 +118,12 @@ footer p a:hover {
 
 .btn-styling:hover {
 	color: white;
-	background: #ed9f8c;
+	background: var(--primary-blue-color);
 	/* #c2919d */
 }
 
 .hero {
-	background: var(--gray-color);
+	background: var(--primary-cream-color);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -186,8 +184,9 @@ footer p a:hover {
 }
 
 .logo {
-	max-width: 150px;
+	max-width: 100px;
 	margin: 0;
+	text-align: left;
 }
 
 .small-logo {
@@ -200,7 +199,7 @@ footer p a:hover {
 
 .nav-links {
 	text-decoration: none;
-	color: var(--primary-coral-color);
+	color: var(--primary-blue-color);
 	padding: 15px;
 }
 
@@ -235,7 +234,6 @@ footer p a:hover {
 
 .contact-container h2 {
 	font-size: 58px;
-	margin: 20px;
 	font-family: var(--main-font-family);
 	line-height: 64px;
 	font-weight: 700;
@@ -243,18 +241,22 @@ footer p a:hover {
 }
 
 .contact-container p {
-	opacity: 0.6;
-	margin: 20px;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 27px;
+	font-family: var(--main-font-family);
+	font-size: 24px;
+	font-weight: 300;
+	color: #000;
+	opacity: 0.8;
+}
+.project-page {
+	background-color: var(--primary-cream-color);
 }
 
 .project-hero h1 {
-	margin-left: 20px;
-	font-family: "Poppins";
+	font-family: var(--text-font-family);
 	font-size: 60px;
 	font-weight: 600;
+	text-align: center;
+	margin-top: 1rem;
 }
 
 .row {
@@ -264,6 +266,7 @@ footer p a:hover {
 	padding-bottom: 10px;
 }
 
+/* Media queuries */
 @media (max-width: 800px) {
 	h2 {
 		font-size: 44px;
