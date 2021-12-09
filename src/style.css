@@ -88,7 +88,7 @@ footer p a {
 }
 
 footer p a:hover {
-	color: #fff;
+	color: var(--secondary-steel-color);
 	cursor: pointer;
 }
 
@@ -133,7 +133,7 @@ footer p a:hover {
 
 .btn-styling:hover {
 	color: white;
-	background: var(--primary-blue-color);
+	background: var(--secondary-steel-color);
 	/* #c2919d */
 }
 
@@ -226,11 +226,12 @@ footer p a:hover {
 	text-decoration: none;
 	color: var(--primary-blue-color);
 	padding: 15px;
+	font-size: 20px;
 }
 
 .nav-links:hover {
 	text-decoration: none;
-	color: #fff;
+	color: var(--secondary-steel-color);
 }
 
 /* contact page styling */
@@ -297,6 +298,24 @@ footer p a:hover {
 
 /* Media queuries */
 @media (max-width: 800px) {
+	.mobile-nav-bar {
+		padding: 2%;
+		list-style-type: none;
+		background-color: white;
+		font-size: 20px;
+	}
+
+	.mobile-nav-bar a {
+		padding: 2vh 2%;
+		display: inline-block;
+		text-decoration: none;
+		color: var(--primary-blue-color);
+	}
+
+	.mobile-nav-bar a:hover {
+		color: var(--secondary-steel-color);
+	}
+
 	.nav-bar {
 		display: none;
 	}
@@ -312,10 +331,6 @@ footer p a:hover {
 
 	body {
 		text-align: center;
-	}
-
-	nav a {
-		font-size: 10px;
 	}
 
 	nav .small-logo {

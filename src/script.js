@@ -1,9 +1,8 @@
-const hamburger = document.querySelector(".hamburger");
-const mobileMenu = document.querySelector(".mobile-nav-bar");
+let hamburger = $(".hamburger");
+console.log(hamburger);
+let mobileMenu = $(".mobile-nav-bar");
+console.log(mobileMenu);
 
-function showMobileMenu() {
-	mobileMenu.classList.remove = "hidden";
-	mobileMenu.classList.add = "show";
-}
-
-hamburger.addEventListener("click", showMobileMenu);
+hamburger.click(function () {
+	mobileMenu.slideToggle();
+});

@@ -40,12 +40,9 @@
 	</head>
 	<body>
 		<nav class="navbar d-flex justify-content-between p-3">
-			<img
-				src="/src/images/small-logo.png"
-				class="logo d-none d-md-block"
-				alt="Summer Robinson logo"
-			/>
-			<ul class="nav-bar d-flex justify-content-end">
+			<img src="/src/images/small-logo.png" class="logo d-none d-md-block" alt="Summer Robinson logo" title="Summer Robinson Logo"/>
+			<i class="fas fa-bars hidden hamburger"></i>
+			<ul class="nav-bar">
 				<li><a href="/" class="nav-links" title="Homepage">Home</a></li>
 				<li>
 					<a href="/src/about.html" title="About Summer" class="nav-links"
@@ -53,17 +50,36 @@
 					>
 				</li>
 				<li>
-					<a href="/src/projects.html" title="Projects" class="nav-links"
+					<a href="/src/projects.html" title="Projects" class="nav-links" 
 						>Projects</a
 					>
 				</li>
 				<li>
-					<a href="/src/contact.html" title="Contact Summer" class="nav-links"
+					<a href="/src/contact.html" title="Contact Summer" class="nav-links" 
 						>Contact</a
 					>
 				</li>
 			</ul>
-		</nav>
+			</nav>
+
+		<ul class="mobile-nav-bar hidden">
+				<li><a href="/" title="Homepage">Home</a></li>
+				<li>
+					<a href="/src/about.html" title="About Summer" 
+						>About</a
+					>
+				</li>
+				<li>
+					<a href="/src/projects.html" title="Projects" 
+						>Projects</a
+					>
+				</li>
+				<li>
+					<a href="/src/contact.html" title="Contact Summer" 
+						>Contact</a
+					>
+				</li>
+			</ul>	
 		<div class="contact-page">
 			<div class="contact-heading">
 				<h1 class="mb-md-4">Let's get in touch!</h1>
