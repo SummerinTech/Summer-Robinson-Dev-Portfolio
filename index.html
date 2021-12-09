@@ -38,6 +38,7 @@
 	<body>
 		<nav class="navbar d-flex justify-content-between p-3">
 			<img src="/src/images/small-logo.png" class="logo d-none d-md-block" alt="Summer Robinson logo" title="Summer Robinson Logo"/>
+			<i class="fas fa-bars hidden hamburger"></i>
 			<ul class="nav-bar">
 				<li><a href="/" class="nav-links" title="Homepage">Home</a></li>
 				<li>
@@ -56,6 +57,25 @@
 					>
 				</li>
 			</ul>
+			<ul class="mobile-nav-bar hidden">
+				<li><a href="/" class="nav-links" title="Homepage">Home</a></li>
+				<li>
+					<a href="/src/about.html" title="About Summer" class="nav-links"
+						>About</a
+					>
+				</li>
+				<li>
+					<a href="/src/projects.html" title="Projects" class="nav-links" 
+						>Projects</a
+					>
+				</li>
+				<li>
+					<a href="/src/contact.html" title="Contact Summer" class="nav-links" 
+						>Contact</a
+					>
+				</li>
+			</ul>
+			
 		</nav>
 
 		<div class="hero">
@@ -114,17 +134,16 @@
 					<div class="col d-none d-lg-block">
 						<div class="img-container">
 							<img
-								src="/src/images/drumkit2.png"
+								src="/src/images/dictionary-app.png"
 								alt="Weather app coded in React"
 								class="img-fluid rounded shadow index-img"
 							/>
 						</div>
 					</div>
 					<div class="col">
-						<h2 class="mb-3">Drumkit Webpage</h2>
+						<h2 class="mb-3">Dictionary App</h2>
 						<p class="mb-4">
-							I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a webpage that mimicks drum sounds. 
-							The page utilizes JavaScript functions and the "this" keyword to create user interactions.
+							My newest web application built with React JS and two external APIs. The dictionary dev API was used to display information about a searched word, and the Pexels API was used to display relevant photos.
 						</p>
 						<a href="/src/projects.html#drumkit-site" class="btn-styling">Learn More</a>
 					</div>
@@ -159,6 +178,11 @@
 				<p class="text-center mt-4 pt-4"> This website was coded by Summer Robinson and is <a href="https://github.com/SummerinTech/Summer-Robinson-Dev-Portfolio" target="_aboutblank" title="Github Portfolio Link">open-sourced </a></p>
 			</footer>
 		</div>
+
+		<!-- Old drumkit description -->
+			<!-- I entered the world of front-end development by gaining some knowledge in HTML, CSS, and /.\
+							p≥≥. I used my knowledge of these languages, along with my new skills in VS Code, to build a webpage that mimicks drum sounds. 
+							The page utilizes JavaScript functions and the "this" keyword to create user interactions. -->
 
 		<!-- javascript and jquery links -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
