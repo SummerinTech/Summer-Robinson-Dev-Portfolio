@@ -116,7 +116,7 @@ footer p a:hover {
 
 .email-link:hover {
 	cursor: pointer;
-	color: #fff;
+	color: var(--secondary-steel-color);
 }
 
 .btn-styling {
