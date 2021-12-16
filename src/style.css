@@ -333,8 +333,8 @@ img.project-img {
 
 /* Media queuries */
 @media (max-width: 800px) {
-	.img-container {
-		display: none;
+	.index-img {
+		width: 200px;
 	}
 	.about-hero {
 		margin: 0;
@@ -514,6 +514,10 @@ img.project-img {
 	}
 
 	.about-hero-content .extra-p {
+		display: none;
+	}
+
+	img.drawing {
 		display: none;
 	}
 
