@@ -94,6 +94,10 @@ footer p a:hover {
 	cursor: pointer;
 }
 
+footer p {
+	font-size: 15px;
+}
+
 /* icon styling */
 
 .fab {
@@ -113,7 +117,7 @@ footer p a:hover {
 	color: rgb(46, 44, 44);
 	font-family: var(--text-font-family);
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .email-link:hover {
@@ -469,22 +473,31 @@ footer p a:hover {
 	}
 }
 
-@media (max-width: 991) {
+@media (max-width: 991px) {
 	.hero-info h1 {
 		margin: 0 auto;
 	}
+}
 
-	@media (max-width: 1200px) {
-		.contact-button {
-			display: block;
-			margin: 0 auto;
-			box-shadow: none;
-		}
-		.contact-container {
-			margin: 0 auto;
-			padding: 20px;
-			text-align: center;
-			height: 300px;
-		}
+@media (max-width: 1280px) {
+	.contact-heading {
+		margin-left: 0;
+	}
+	.contact-page h1 {
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	.contact-button {
+		display: block;
+		margin: 0 auto;
+		box-shadow: none;
+	}
+	.contact-container {
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+		height: 300px;
+		flex-direction: column;
 	}
 }
