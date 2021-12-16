@@ -178,6 +178,9 @@ footer p a:hover {
 	height: auto;
 	width: 500px;
 }
+.index-img:hover {
+	transform: scale(1.1);
+}
 
 .drawing {
 	max-width: 100%;
@@ -231,8 +234,8 @@ footer p a:hover {
 .nav-links {
 	text-decoration: none;
 	color: var(--primary-blue-color);
-	padding: 15px;
-	font-size: 20px;
+	padding: 10px;
+	font-size: 18px;
 }
 
 .nav-links:hover {
@@ -300,6 +303,10 @@ footer p a:hover {
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.project-page img:hover {
+	transform: scale(1.1);
 }
 
 /* Media queuries */
