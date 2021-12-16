@@ -199,7 +199,7 @@ footer p {
 
 .about-hero {
 	width: 100%;
-	height: 100vh;
+	height: 75vh;
 	padding: 0;
 }
 
@@ -442,7 +442,6 @@ img.project-img {
 
 	.btn-styling {
 		margin: 0 auto;
-		display: inline-block;
 	}
 
 	.contact-heading {
