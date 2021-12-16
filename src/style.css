@@ -315,6 +315,9 @@ footer p {
 
 /* Media queuries */
 @media (max-width: 800px) {
+	.about-hero {
+		margin: 0 auto;
+	}
 	.mobile-nav-bar {
 		padding: 2%;
 		list-style-type: none;
@@ -399,6 +402,10 @@ footer p {
 		text-align: center;
 	}
 
+	.about-hero-content .extra-p {
+		display: none;
+	}
+
 	.about-hero h1 {
 		font-size: 32px;
 	}
@@ -407,8 +414,13 @@ footer p {
 		font-size: 22px;
 	}
 
+	.about-hero .summer-robinson-headshot {
+		display: none;
+	}
+
 	.btn-styling {
 		margin: 0 auto;
+		display: inline-block;
 	}
 
 	.contact-heading {
@@ -418,9 +430,10 @@ footer p {
 	}
 
 	.contact-heading h1 {
+		padding-top: 20px;
 		margin: 0;
 		text-align: center;
-		font-size: 32px;
+		font-size: 44px;
 	}
 
 	.contact-container {
@@ -465,7 +478,7 @@ footer p {
 
 	.email-link {
 		text-align: center;
-		font-size: 12px;
+		font-size: 18px;
 	}
 
 	footer p {
@@ -473,7 +486,67 @@ footer p {
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
+	.about-hero-content {
+		margin: 0 auto;
+	}
+
+	.about-hero-content p {
+		max-width: 70%;
+	}
+
+	.about-hero-content .extra-p {
+		display: none;
+	}
+
+	.btn-styling {
+		margin: 0 auto;
+	}
+
+	.about-hero .img-container {
+		display: none;
+	}
+
+	.contact-heading {
+		margin: 0;
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+
+	.contact-heading h1 {
+		padding-top: 20px;
+		margin: 0;
+		text-align: center;
+		font-size: 44px;
+	}
+
+	.contact-container {
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+		height: 350px;
+		width: 90%vw;
+	}
+
+	.contact-container h2 {
+		font-family: var(--main-font-family);
+		font-size: 26px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.contact-container p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.contact-button {
+		text-align: center;
+		box-shadow: none;
+	}
+}
+
+/* @media (max-width: 991px) {
 	.hero-info h1 {
 		margin: 0 auto;
 	}
@@ -500,4 +573,4 @@ footer p {
 		height: 300px;
 		flex-direction: column;
 	}
-}
+} */
