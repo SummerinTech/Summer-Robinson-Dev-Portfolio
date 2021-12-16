@@ -294,6 +294,10 @@ footer p {
 	background-color: var(--primary-cream-color);
 }
 
+img.project-img {
+	width: 550px;
+}
+
 .project-hero h1 {
 	font-family: var(--text-font-family);
 	font-size: 60px;
@@ -315,8 +319,12 @@ footer p {
 
 /* Media queuries */
 @media (max-width: 800px) {
+	.img-container {
+		display: none;
+	}
 	.about-hero {
-		margin: 0 auto;
+		margin: 0;
+		text-align: center;
 	}
 	.mobile-nav-bar {
 		padding: 2%;
