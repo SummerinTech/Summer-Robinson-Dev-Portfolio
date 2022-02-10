@@ -36,63 +36,88 @@
 		<title>Summer Robinson Frontend Developer Portfolio</title>
 	</head>
 	<body>
-		<nav class="navbar d-flex justify-content-between p-3">
+		<nav class="navbar d-flex justify-content-between align-items-center p-3">
 			<img src="/src/images/small-logo.png" class="logo d-none d-md-block" alt="Summer Robinson logo" title="Summer Robinson Logo"/>
-			<i class="fas fa-bars hidden hamburger"></i>
-			<ul class="nav-bar">
-				<li><a href="/" class="nav-links" title="Homepage">Home</a></li>
+				<i class="fas fa-bars hidden hamburger"></i>
+			<ul class="nav-bar d-flex justify-content-center">
 				<li>
-					<a href="/src/about.html" title="About Summer" class="nav-links"
+					<a href="#about" title="About Summer" class="nav-links"
 						>About</a
 					>
 				</li>
 				<li>
-					<a href="/src/projects.html" title="Projects" class="nav-links" 
+					<a href="#projects" title="Projects" class="nav-links" 
 						>Projects</a
 					>
 				</li>
 				<li>
-					<a href="/src/contact.html" title="Contact Summer" class="nav-links" 
+					<a href="#contact" title="Contact Summer" class="nav-links" 
 						>Contact</a
 					>
 				</li>
 			</ul>
-			</nav>
+		</nav>
 
 		<ul class="mobile-nav-bar hidden">
-				<li><a href="/" title="Homepage">Home</a></li>
+				<li><a href="#hero" title="Homepage">Home</a></li>
 				<li>
-					<a href="/src/about.html" title="About Summer" 
+					<a href="#about" title="About Summer" 
 						>About</a
 					>
 				</li>
 				<li>
-					<a href="/src/projects.html" title="Projects" 
+					<a href="#projects" title="Projects" 
 						>Projects</a
 					>
 				</li>
 				<li>
-					<a href="/src/contact.html" title="Contact Summer" 
+					<a href="#contact" title="Contact Summer" 
 						>Contact</a
 					>
 				</li>
 			</ul>	
 
-		<div class="hero">
-			<div class="row">
-				<div class="col-lg-6 hero-info">
-					<h1 class="mb-3 name">Summer Robinson</h1>
-					<h2 class="mb-3">Front-end developer based in Los Angeles, CA</h2>
-					<div class="hero-button mt-3">
-						<a href="/src/projects.html" class="btn btn-styling">Projects</a>
+<div class="hero" id="hero">
+	<div class="row p-5">
+		<div class="col-lg-6 hero-info">
+			<h1 class="mb-3 name">Summer Robinson</h1>
+				<h2 class="mb-3">Front-end developer based in Los Angeles, CA</h2>
+				<div class="hero-button mt-3">
+					<a href="/src/projects.html" class="btn btn-styling">Projects</a>
 					</div>
-			</div>
+	</div>
 				<div class="col-lg-6">
 					<img src="/src/images/undraw-image.svg" alt="woman standing by desk" class="drawing">
 				</div>
 				</div>
-      </div>
-			<div class="index-content text-center m-5">
+</div>
+
+<div class="about-hero p-4 row justify-content-center align-items-center" id="about">
+		<div class="col-lg-6 about-hero-content">
+			<h2 class="mb-4 about-summer">About Summer</h2>
+			<p class="about-summer">
+			Hi, I'm Summer Robinson! I've been coding for one year, and I have worked on a variety of projects.
+			I am currently seeking new opportunities in front-end development as a React developer. I am also open to other Javscript frameworks and libraries.
+			<br />
+			<br />
+				Some of my skills and frameworks include HTML, CSS, Javascript, React, APIs, and Github.
+				I'm open to working remotely and work well with a team.
+			<br />
+			<br />
+			</p>
+			<p class="extra-p">When I'm not coding, I enjoy reading, riding my Peloton, and traveling the world.</p>
+			</div>
+			<div class="col-lg-6 mb-5 pb-5 img-container">
+					<img
+						src="/src/images/optimized-headshot.jpeg"
+						alt="Summer Robinson headshot"
+						class="img-fluid rounded shadow summer-robinson-headshot mb-4 mt-5"
+					/>
+			</div>
+</div>
+
+<div class="index-content text-center p-5" id="projects">
+	<h2 class="pb-3 projects-header">My Projects</h2>
 				<div class="row mb-3 pb-3 mt-3">
 					<div class="col d-none d-lg-block">
 						<div class="img-container">
@@ -103,22 +128,23 @@
 							/>
 						</div>
 					</div>
-					<div class="col">
-						<h2 class="mb-3">Weather App</h2>
+					<div class="col mb-5 p-3">
+						<h3 class="mb-3">Weather App</h3>
 						<p class="mb-4">
-						I immersed myself in React and API development by building a weather application. <br/>I used my knowledge of this highly-demanded framework to design and code a functional app, incorporating coding best practices.
+						I immersed myself in React and API development by building a weather application.<br/> <br/>I used my knowledge of this highly-demanded framework to design and code a functional app, incorporating coding best practices.
 						 I also used some of the most popular tools and technologies.
 						</p>
-						<a href="/src/projects.html#weather-app" class="btn-styling">Learn More</a>
+						<a href="https://stoic-thompson-4225b6.netlify.app/" target="_blank" class="btn-styling">Launce App</a>
 					</div>
 				</div>
 				<div class="row mt-3 mb-3 pt-3 pb-3 m-2">
-					<div class="col">
-						<h2 class="mb-3">Shortly App</h2>
+					<div class="col mb-5 p-3">
+						<h3 class="mb-3">Shortly App</h3>
 						<p class="mb-4">
-							I further expanded my React skills by building a link shortening app. I also developed it with a new CSS framework, TailwindCSS. The page was developed with a responsive design and incorporated try/catch error handling.
+							I further expanded my React skills by building a link shortening app. I also developed it with a new CSS framework, TailwindCSS. <br /> <br />The Shortly app incorporates responsive design and features fetch and try/catch error handling for the API.
 						</p>
-						<a href="/src/projects.html#shortly-app" class="btn-styling">Learn More</a>
+						<a 	href="https://admiring-babbage-407e00.netlify.app/"
+				target="_blank" class="btn-styling">Launch App</a>
 					</div>
 					<div class="col d-none d-lg-block">
 						<div class="index-img-container">
@@ -140,17 +166,39 @@
 							/>
 						</div>
 					</div>
-					<div class="col">
-						<h2 class="mb-3">Dictionary App</h2>
+					<div class="col mb-5 p-3">
+						<h3 class="mb-3">Dictionary App</h3>
 						<p class="mb-4">
-							My newest web application built with React JS and two external APIs. The dictionary dev API was used to display information about a searched word, and the Pexels API was used to display relevant photos.
+							My newest web application was built with React JS and two external APIs. It is styled with basic CSS principles and is responsive.<br /> <br />The Dictionary Dev API is used to display information about a search word, and the Pexels API displays relevant photos.
 						</p>
-						<a href="/src/projects.html#drumkit-site" class="btn-styling">Learn More</a>
+						<a 	href="https://priceless-lewin-6bbf3e.netlify.app/"
+				target="_blank" class="btn-styling">Launch App</a>
 					</div>
 				</div>
 			</div>
-			<footer class="pb-5 pt-5 mt-5 mb-5">
-				<div class="footer-email text-center mb-4 pb-3">
+
+<div class="contact-page" id="contact" >
+			<div class="contact-heading pt-5 pb-5">
+				<h2 class="mb-md-3">Let's get in touch!</h2>
+			</div>
+			<div
+				class="contact-container rounded d-block d-flex flex-wrap justify-content-around"
+			>
+				<div class="contact-intro">
+					<h3 class="mb-3">Work inquiry</h3>
+					<p>
+						Email me about job opportunities or to learn more about my
+						qualifications
+					</p>
+				</div>
+				<div class="contact-button pt-4 pb-4">
+					<a href="mailto:summerrobinsondev@gmail.com" class="btn-styling" title="Email Summer">Contact</a>
+				</div>
+			</div>
+		</div>
+			
+			<footer class="pb-4 pt-5 mt-5">
+				<div class="footer-email text-center mb-3 pb-3">
 					<a
 						href="mailto:summerrobinsondev@gmail.com"
 						title="Summer Robinson email"
@@ -166,7 +214,7 @@
 							></a>
 						</li>
 						<li class="social-icon">
-							<a href=https://www.linkedin.com/in/summer-robinson-00737515a/ target="_aboutblank" title="LinkedIn Link"
+							<a href=https://www.linkedin.com/in/summer-n-robinson/ target="_aboutblank" title="LinkedIn Link"
 								><i class="fab fa-linkedin"></i
 							></a>
 						</li>
@@ -177,7 +225,7 @@
 						</li>
 					</ul>
 				</div>
-				<p class="text-center mt-4 pt-3"> This website was coded by Summer Robinson and is <a href="https://github.com/SummerinTech/Summer-Robinson-Dev-Portfolio" target="_aboutblank" title="Github Portfolio Link" >open-sourced </a></p>
+				<p class="text-center mt-3 pt-3"> This website was coded by Summer Robinson and is <a href="https://github.com/SummerinTech/Summer-Robinson-Dev-Portfolio" target="_aboutblank" title="Github Portfolio Link" >open-sourced </a></p>
 			</footer>
 		</div>
 
