@@ -83,6 +83,7 @@ nav {
 	color: var(--primary-blue-color);
 	padding: 0 10px;
 	font-size: 18px;
+	display: inline-block;
 }
 
 .nav-links:hover {
