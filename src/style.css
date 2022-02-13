@@ -205,6 +205,11 @@ footer p {
 	font-weight: 100;
 }
 
+.hero-container {
+	display: flex;
+	align-items: center;
+}
+
 .index-content {
 	display: block;
 	margin: 0 auto;
